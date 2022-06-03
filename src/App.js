@@ -13,8 +13,10 @@ function App(props) {
   return (
     <div className="App">
       <header className="App-header">UNIT 4 FINAL ASSESSMENT</header>
+
       <main>
 
+        {/* Circle Selectors Buttons on the left */}
         <CircleSelector
           circleSelector1={circleSelector1}
           circleSelector2={circleSelector2}
@@ -25,6 +27,7 @@ function App(props) {
           setCircleSelector3={setCircleSelector3}
           setCircleSelector4={setCircleSelector4}
         />
+        {/* Numbered Circles on the right */}
         <Circles
           circleSelector1={circleSelector1}
           circleSelector2={circleSelector2}
